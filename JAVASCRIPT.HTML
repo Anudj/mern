@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ex">Javascript Example</h1>
+    <button type="button" onclick="example()">
+        Click here!
+    </button>
+    <button type="button" onclick="example()">
+        External Js
+    </button>
+    <script>
+        function example(){
+            document.getElementById('ex').innerHTML='Hi from script';
+        }
+    </script>
+</body>
+</html>

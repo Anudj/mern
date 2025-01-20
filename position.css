@@ -1,0 +1,8 @@
+.p1{
+    position:relative;
+    border:2px solid plum;
+}
+.p2{
+    position:fixed;
+    bottom:20px;
+}
